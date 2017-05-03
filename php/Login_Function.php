@@ -1,6 +1,6 @@
 <?php
 include 'connect.php';
-
+include("auth.php");
 if(isset($_POST['login'])){
 		
 	$u_name = $_POST['u_name'];
